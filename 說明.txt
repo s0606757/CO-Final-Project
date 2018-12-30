@@ -1,0 +1,7 @@
+1.CPU.v 為主要.v檔，InstrFet.v、InstrDec_Execu.v、Mem_Writeback.v 為子模組.v檔。
+
+2.InstrFet.v = IF級
+  InstrDec_Execu.v = ID級 + EX級 ，兩級打在同一個檔案內
+  Mem_Writeback.v = Mem級 + WB級 ，兩級打在同一個檔案內
+
+
